@@ -1,0 +1,75 @@
+body {
+  background: url('/image/v4.jpg') center center;
+}
+#header .container .head {
+  margin: 20px auto;
+  max-width: 1000px;
+  height: 180px;
+  background-color: lightgrey;
+  color: grey;
+  border-radius: 10px;
+}
+#header .container .head p {
+  text-align: center;
+  font-size: 40px;
+  font-family: arial, sans-serif;
+}
+#header .container .head a {
+  text-align: center;
+}
+#admin .container .row {
+  margin: 0 auto;
+  max-height: 750px;
+  max-width: 1000px;
+  background-color: lightgrey;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+#admin .container .row .buttons {
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+}
+#admin .container .row .buttons button {
+  margin: 10px 15px;
+}
+#admin .container .row .calendar {
+  border: 1px solid grey;
+  border-radius: 10px;
+  height: 600px;
+  margin: 10px 10px;
+}
+#admin .container .row .calendar .calendar_head {
+  padding: 20px 20px 0px 20px;
+}
+#admin .container .row .calendar .calendar_head p {
+  text-align: center;
+  font-size: 24px;
+  font-family: arial, sans-serif;
+}
+#admin .container .row .calendar .calendar_body {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+}
+#admin .container .row .calendar .calendar_body .one_day {
+  background-color: #fff;
+  color: #575757;
+}
+#admin .container .row .calendar .calendar_body .one_day .date {
+  padding: 7px;
+  border: 1px solid grey;
+  text-align: center;
+}
+#admin .container .row .calendar .calendar_body .one_day .one_time {
+  padding: 7px;
+  border: 1px solid grey;
+  font-size: 18px;
+  text-align: center;
+  height: 70px;
+}
+#admin .container .row .calendar .calendar_body .one_day .one_time .customer {
+  font-size: 12px;
+  font-family: arial, sans-serif;
+}
