@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: rosamunda;
+  src: url(/fonts/rosamunda-two.ttf);
+}
+@font-face {
+  font-family: raleway-regular;
+  src: url(/fonts/raleway-regular.ttf);
+}
+@font-face {
+  font-family: real;
+  src: url(/fonts/Raleway-v4020-Black.otf);
+}
+@font-face {
+  font-family: montserrat-light;
+  src: url(/fonts/montserrat-light.ttf);
+}
+@font-face {
+  font-family: montserrat-ultralight;
+  src: url(/fonts/montserrat-ultralight.otf);
+}
+@font-face {
+  font-family: raleway-semibold;
+  src: url(/fonts/raleway-semibold.ttf);
+}
+@font-face {
+  font-family: raleway-medium;
+  src: url(/fonts/raleway-medium.ttf);
+}
+@font-face {
+  font-family: roboto-regular;
+  src: url(/fonts/roboto-regular.ttf);
+}
+@font-face {
+  font-family: raleway-extrabold;
+  src: url(/fonts/raleway-extrabold.ttf);
+}
+body {
+  min-width: 500px;
+}
+#main {
+  height: 940px;
+  background: url('/image/fon.png') center center repeat-y;
+  background-color: #f2f2f2;
+  color: #000;
+}
+#main .container {
+  height: 100%;
+}
+#main .container .row {
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  align-items: center;
+}
+#main .container .row .nav_panel_left {
+  float: left;
+  flex: 0 1 auto;
+}
+#main .container .row .nav_panel_left p {
+  font-family: rosamunda, sans-serif, arial;
+  font-size: 72px;
+  color: #525252;
+}
+#main .container .row .nav_panel_right {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+#main .container .row .nav_panel_right .nav_btn {
+  padding: 5px 20px;
+  font-family: raleway-medium, sans-serif, arial;
+  color: #525252;
+}
+#main .container .row .nav_panel_right .nav_btn a {
+  color: #525252;
+  text-decoration: none;
+}
+#main .container .row .nav_panel_right .nav_btn a:hover {
+  color: #B3B3B3;
+  cursor: pointer;
+}
+#appointment {
+  background: url('/image/hearts.jpg') center center;
+  color: #525252;
+}
+#appointment .container {
+  margin: 0 auto;
+  max-height: 650px;
+  padding: 40px;
+}
+#appointment .container .calendar {
+  margin: 0 auto;
+  width: 80%;
+  border: 3px solid #F0D6D6;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+}
+#appointment .container .calendar .calendar_head {
+  padding: 30px 0px 20px 20px;
+}
+#appointment .container .calendar .calendar_head h2 {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'raleway-medium', arial, sans-serif;
+}
+#appointment .container .calendar .calendar_body {
+  display: flex;
+}
+#appointment .container .calendar .calendar_body .one_day {
+  width: 110px;
+  background-color: #fff;
+}
+#appointment .container .calendar .calendar_body .one_day .date {
+  padding: 7px;
+  border-top: 2px solid #F0D6D6;
+  border-bottom: 2px solid #F0D6D6;
+  text-align: center;
+}
+#appointment .container .calendar .calendar_body .one_day .one_time {
+  padding: 7px;
+  border-bottom: 1px solid #F0D6D6;
+  font-size: 18px;
+  text-align: center;
+}
+#appointment .container .calendar .calendar_foot {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#appointment .container .calendar .calendar_foot p {
+  min-width: 200px;
+}
+#nails {
+  background-color: #f2f2f2;
+  color: #525252;
+}
+#nails .container .row {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding-bottom: 30px;
+}
+#nails .container .row .nails_head {
+  padding-top: 35px;
+  margin: 0 auto;
+  text-align: center;
+}
+#nails .container .row .nails_head h2 {
+  font-family: 'raleway-semibold', sans-serif, arial;
+}
+#nails .container .row .main_block {
+  margin: 30px auto;
+  max-width: 780px;
+}
+#nails .container .row .main_block .image img {
+  width: 100%;
+  padding: 5px;
+  background-color: #fff;
+}
+#nails .container .row .blocks {
+  margin: 0 auto;
+  max-width: 780px;
+}
+#nails .container .row .blocks .image {
+  margin: 0 7px;
+}
+#nails .container .row .blocks .image img {
+  width: 100%;
+  padding: 3px;
+  background-color: white;
+}
+#price {
+  height: 600px;
+  background: url('/image/hearts.jpg') center center;
+  color: #525252;
+}
+#price .container .row {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+#price .container .row .price_head {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+#price .container .row .price_head h2 {
+  font-family: 'raleway-semibold', sans-serif, arial;
+}
+#price .container .row .price_body {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 28px;
+  font-family: arial, sans-serif;
+}
+#price .container .row .price_body p {
+  overflow: hidden;
+  padding-top: 20px;
+}
+#price .container .row .price_body p:after {
+  content: '.................................................................................';
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#price .container .row .price_body p span:first-of-type {
+  float: left;
+  margin-left: 10px;
+}
+#price .container .row .price_body p span:last-of-type {
+  float: right;
+  margin-left: 20px;
+}
+#map {
+  min-height: 750px;
+  background-color: #f2f2f2;
+  color: #525252;
+}
+#map .container .row {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+#map .container .row .map_head {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+#map .container .row .map_head h2 {
+  font-family: 'raleway-semibold', sans-serif, arial;
+}
+#map .container .row .map_body {
+  width: 100%;
+}
+#map .container .row .map_body img {
+  display: block;
+  margin: 0 auto;
+}
+#footer {
+  background: #000;
+  height: 70px;
+  color: #fff;
+}
+#footer .container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+#footer .container p {
+  padding: 15px;
+}
